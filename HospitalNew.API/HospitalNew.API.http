@@ -1,0 +1,14 @@
+@HospitalNew.API_HostAddress =https://localhost:7216
+
+GET {{HospitalNew.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+ 
+GET {{HospitalNew.API_HostAddress}}/api/appointments
+
+###
+
+POST {{HospitalNew.API_HostAddress}}/api/auth/SignUp
+
+###
